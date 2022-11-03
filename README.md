@@ -1,2 +1,7 @@
 # CrowdBehaviourDetection
-Final thesis
+
+Gathering and interaction between individuals are prevalent practise creating crowds of all types. These scenarios can sometimes lead to unfortunate situations due to crowd massiveness and the inability of environments to cope with their behaviours. 
+In this paper, a data science pipeline to perform crowd behaviour understanding and analysis is carried out. It aims to differentiate among the crowds’ behaviours and emotions and provide meaningful insight for appropriate decision-making based on the output. A literature review in crowd analysis has been conducted to construct a solution appropriately. Several different methods have already been proposed and contain various levels of complexity. Due to the experience and knowledge presented by the student, attempting to replicate or follow one of the proposed solutions is not viable.
+For this reason, a combination of techniques identified in the review has been selected to develop the solution. The task has been achieved by extracting features from video frames with two Convolutional Neural Networks (CNNs) pre-trained models on the ImageNet dataset and performing linear classification with Support Vector Machines to evaluate the extracted features further. The Motion Emotion Dataset (MED) has been selected as the data to perform such tasks. The results reflect that pre-trained CNNs can extract meaningful information from images, and the classification with SVMs enables such a conclusion. The paper has not achieved state-of-the-art performance, partially due to MED not being the best suited crowd-based dataset for this project; however, combining two or more datasets may provide a more in-depth insight into the problem’s solution and improve the results.  
+
+
